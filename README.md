@@ -180,24 +180,25 @@ $$
 
 ### 2. Execution Time Reduction
 
-Execution time reduction represents the percentage of time saved by the optimized implementation compared to the baseline.
+Execution time reduction measures how much execution time was saved by the optimized implementation compared to the baseline, expressed as a percentage.
 
 **Formula:**
 
 $$
-\text{Time Reduction} =
-\frac{T_{\text{Baseline}}-T_{\text{Optimized}}}
-{T_{\text{Baseline}}}\times100
+\text{Time Reduction (\%)} =
+\frac{\text{Baseline Time} - \text{Optimized Time}}{\text{Baseline Time}} \times 100
 $$
 
 **Calculation:**
 
 $$
-= \frac{2.395-1.531}{2.395}\times100
+= \frac{2.395 - 1.531}{2.395} \times 100
 $$
 
+**Result:**
+
 $$
-\boxed{\text{Time Reduction} \approx 36.08\%}
+\text{Time Reduction} \approx 36.08\%
 $$
 
 ### 3. Throughput Improvement
