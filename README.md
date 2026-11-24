@@ -207,20 +207,21 @@ Throughput improvement measures the percentage increase in batches processed per
 **Formula:**
 
 $$
-\text{Throughput Increase} =
-\frac{\text{Optimized Throughput}-\text{Baseline Throughput}}
-{\text{Baseline Throughput}}\times100
+\text{Throughput Increase (\%)} =
+\frac{\text{Optimized Throughput} - \text{Baseline Throughput}}{\text{Baseline Throughput}} \times 100
 $$
 
 **Calculation:**
 
 $$
-= \frac{130.6-83.5}{83.5}\times100
+= \frac{130.6 - 83.5}{83.5} \times 100
 $$
 
+**Result:**
+
 $$
-\boxed{\text{Throughput Improvement} \approx 56.41\%}
-$$
+\text{Throughput Improvement} \approx 56.41\%
+$$$
 
 ## GPU Profiling
 
