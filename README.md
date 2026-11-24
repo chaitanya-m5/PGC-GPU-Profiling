@@ -221,7 +221,7 @@ $$
 
 $$
 \text{Throughput Improvement} \approx 56.41\%
-$$$
+$$
 
 ## GPU Profiling
 
