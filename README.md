@@ -158,48 +158,69 @@ The optimized implementation reduced the average processing time per batch by ap
 
 ## Performance Calculations
 
-### Speedup
+### 1. Speedup
 
-Speedup is calculated as the ratio of baseline execution time to optimized execution time.
+Speedup measures how many times faster the optimized implementation is compared to the baseline.
 
-\[
-\text{Speedup} =
-\frac{T_{\text{Baseline}}}{T_{\text{Optimized}}}
-\]
+**Formula:**
 
-\[
-= \frac{2.395}{1.531}
-\approx 1.56x
-\]
+$$
+\text{Speedup} = \frac{T_{\text{Baseline}}}{T_{\text{Optimized}}}
+$$
 
-### Execution Time Reduction
+**Calculation:**
 
-\[
+$$
+\text{Speedup} = \frac{2.395}{1.531}
+$$
+
+$$
+\boxed{\text{Speedup} \approx 1.56\times}
+$$
+
+### 2. Execution Time Reduction
+
+Execution time reduction represents the percentage of time saved by the optimized implementation compared to the baseline.
+
+**Formula:**
+
+$$
 \text{Time Reduction} =
 \frac{T_{\text{Baseline}}-T_{\text{Optimized}}}
 {T_{\text{Baseline}}}\times100
-\]
+$$
 
-\[
+**Calculation:**
+
+$$
 = \frac{2.395-1.531}{2.395}\times100
-\]
+$$
 
-\[
-\approx 36.08\%
-\]
+$$
+\boxed{\text{Time Reduction} \approx 36.08\%}
+$$
 
-### Throughput Improvement
+### 3. Throughput Improvement
 
-\[
+Throughput improvement measures the percentage increase in batches processed per second after optimization.
+
+**Formula:**
+
+$$
 \text{Throughput Increase} =
-\frac{130.6-83.5}{83.5}\times100
-\]
+\frac{\text{Optimized Throughput}-\text{Baseline Throughput}}
+{\text{Baseline Throughput}}\times100
+$$
 
-\[
-\approx 56.41\%
-\]
+**Calculation:**
 
----
+$$
+= \frac{130.6-83.5}{83.5}\times100
+$$
+
+$$
+\boxed{\text{Throughput Improvement} \approx 56.41\%}
+$$
 
 ## GPU Profiling
 
